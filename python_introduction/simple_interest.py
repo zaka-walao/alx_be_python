@@ -4,4 +4,4 @@ time = 3
 
 interest = float(1000) * rate * float(time)
 
-print(interest)
+print("The simple interest is:", interest)

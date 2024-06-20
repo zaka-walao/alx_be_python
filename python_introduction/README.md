@@ -1,0 +1,1 @@
+python beginner inside derictory

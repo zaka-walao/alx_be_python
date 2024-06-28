@@ -13,3 +13,5 @@ match input("Choose the operation (+, -, *, /):") :
             print("Cannot divide by zero.")
         else : 
             print("The result is",num1 / num2)
+    case _ :
+        print("Invalid day entered.")

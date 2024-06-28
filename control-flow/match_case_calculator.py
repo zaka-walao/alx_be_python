@@ -9,8 +9,7 @@ match input("Choose the operation (+, -, *, /):") :
     case "*" :
         print("The result is",num1 * num2)
     case "/" :
-        if num2 == 0 : 
+        if  num1 | num2 == 0 : 
             print("Cannot divide by zero.")
         else : 
             print("The result is",num1 / num2)
- 

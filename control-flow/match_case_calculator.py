@@ -16,5 +16,4 @@ match operation :
             print("Cannot divide by zero.")
     case _ :
         print("Invalid day entered.")
-
 print(f"The result is {result}.")

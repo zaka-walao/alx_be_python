@@ -1,22 +1,9 @@
-task = input("Enter your task: ")
-priority = input("Priority (high/medium/low): ")
-time_bound = input("Is it time-bound? (yes/no): ")
-
-match priority.lower():
-    case "high":
-        reminder = f"Reminder: '{task}' is a high priority task"
-    case "medium":
-        reminder = f"Reminder: '{task}' is a medium priority task"
-    case "low":
-        reminder = f"Note: '{task}' is a low priority task"
-    case _:
-        reminder = f"Invalid priority level. Please enter high, medium, or low."
-
-if time_bound.lower() == "yes":
-    reminder += " that requires immediate attention today!"
-elif time_bound.lower() == "no":
-    reminder += ". Consider completing it when you have free time."
-else:
-    reminder = "Invalid input for time-bound. Please enter yes or no."
-
-print(f"\n{reminder}")
+weather = input("What's the weather like today? (sunny/rainy/cold): ")
+if weather == "sunny" :
+    print("Wear a t-shirt and sunglasses.")
+elif weather == "cold" :
+    print("Make sure to wear a warm coat and a scarf.")
+elif weather == "rainy" :
+    print("Don't forget your umbrella and a raincoat.")
+else :
+    print("Sorry, I don't have recommendations for this weather.")

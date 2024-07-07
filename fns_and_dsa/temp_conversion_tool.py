@@ -19,6 +19,6 @@ def temp_convert():
         result = convert_to_fahrenheit(temp)
         print(f"{temp}°C is {result:.2f}°F")
     else:
-        print("Invalid input. Please enter 'C' for Celsius or 'F' for Fahrenheit.")
+        print("Invalid temperature. Please enter a numeric value.")
 
 temp_convert()
